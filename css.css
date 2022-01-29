@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Segoe UI Variable';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Segoe UI Variable'), url('SegoeUIVF.woff') format('woff');
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: #293BFD;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    color:forestgreen;
+    text-align: center;
+    font-family: 'Segoe UI Variable';
+    font-weight: bolder;
+    font-size: 100px
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #293BFD;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: forestgreen;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color:#293BFD;
+    color: white;
+}
+
+a {
+    color: #293BFD;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h2 {
+    color:gold;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+}
