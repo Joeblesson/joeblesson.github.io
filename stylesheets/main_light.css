@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'Segoe UI Variable';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Segoe UI Variable'), url('../font/SegoeUIVF.woff') format('woff');
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+p {
+    color: black;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1 {
+    color: #293bfd;
+    text-align: center;
+    font-family: 'Segoe UI Variable';
+    font-weight: bolder;
+    font-size: 100px
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: white;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: orange;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #293bfd;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: orange;
+    color: black;
+}
+
+a {
+    color: black;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+h2 {
+    color: gold;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+img {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.featured_games {
+    border-radius: 10px;
+    border: 5px solid red;
+    overflow: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.featured_games_text {
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+    text-decoration: none;
+}
+
+h3 {
+    color: red;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.featured_games_img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-right: 15px;
+    float: left;
+}
+
+.featured {
+    background-color: black;
+}
+
+.dark_mode_toggle {
+    background-color: #293BFD;
+    color: white;
+}
+
+.link {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
+.inline_link {
+    color: red;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    padding-left: 100px;
+    display: block;
+}
+
+.index_link {
+    color: limegreen;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 125px;
+    padding-right: 125px;
+    text-decoration: none;
+}
