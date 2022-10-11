@@ -140,6 +140,16 @@ h3 {
     text-decoration: none;
 }
 
+.download_link {
+    color: rgb(0, 255, 30);
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: xx-large;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+}
+
 .inline_link {
     color: red;
     font-family: 'Segoe UI Variable';
