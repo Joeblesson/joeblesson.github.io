@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #ddd;
 }
 
 p {
@@ -31,7 +31,7 @@ h1 {
 }
 
  ::-webkit-scrollbar-track {
-    background: white;
+    background: #ddd;
 }
 
  ::-webkit-scrollbar-thumb {
@@ -43,8 +43,11 @@ h1 {
 }
 
 .topnav {
-    background-color: white;
+    background-color: #ddd;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .topnav a {
@@ -57,12 +60,27 @@ h1 {
 }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: white;
     color: black;
 }
 
 .topnav a.active {
     background-color: orange;
+    color: black;
+}
+
+.topnav a.active:hover {
+    background-color: #293bfd;
+    color: black;
+}
+
+.topnav a.site_settings {
+    background-color: orange;
+    color: black;
+}
+
+.topnav a.site_settings:hover {
+    background-color: #293bfd;
     color: black;
 }
 
@@ -123,11 +141,6 @@ h3 {
 
 .featured {
     background-color: black;
-}
-
-.dark_mode_toggle {
-    background-color: #293BFD;
-    color: white;
 }
 
 .link {

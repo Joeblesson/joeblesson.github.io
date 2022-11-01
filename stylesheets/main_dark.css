@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #121212;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 }
 
 h1 {
-    color: forestgreen;
+    color: orange;
     text-align: center;
     font-family: 'Segoe UI Variable';
     font-weight: bolder;
@@ -31,7 +31,7 @@ h1 {
 }
 
 ::-webkit-scrollbar-track {
-    background: black;
+    background: #121212;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -39,12 +39,15 @@ h1 {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: forestgreen;
+    background: orange;
 }
 
 .topnav {
-    background-color: black;
+    background-color: #121212;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .topnav a {
@@ -64,6 +67,20 @@ h1 {
 .topnav a.active {
     background-color: #293BFD;
     color: white;
+}
+
+.topnav a.active:hover {
+    background-color: orange;
+    color: white;
+}
+
+.topnav a.site_settings {
+    background-color: #293BFD;
+    color: white;
+}
+
+.topnav a.site_settings:hover {
+    background-color: orange;
 }
 
 a {
