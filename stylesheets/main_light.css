@@ -95,7 +95,7 @@ a {
 }
 
 h2 {
-    color: gold;
+    color: orangered;
     font-family: 'Segoe UI Variable';
     font-weight: bold;
     font-size: xx-large;
@@ -170,4 +170,17 @@ h3 {
     padding-left: 125px;
     padding-right: 125px;
     text-decoration: none;
+}
+
+img {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
 }
