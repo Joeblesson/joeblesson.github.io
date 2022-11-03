@@ -19,7 +19,7 @@ p {
 }
 
 h1 {
-    color: #293bfd;
+    color: #000000;
     text-align: center;
     font-family: 'Segoe UI Variable';
     font-weight: bolder;
@@ -35,7 +35,7 @@ h1 {
 }
 
  ::-webkit-scrollbar-thumb {
-    background: orange;
+    background: black;
 }
 
  ::-webkit-scrollbar-thumb:hover {
@@ -65,23 +65,23 @@ h1 {
 }
 
 .topnav a.active {
-    background-color: orange;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .topnav a.active:hover {
     background-color: #293bfd;
-    color: black;
+    color: white;
 }
 
 .topnav a.site_settings {
-    background-color: orange;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .topnav a.site_settings:hover {
     background-color: #293bfd;
-    color: black;
+    color: white;
 }
 
 a {
@@ -144,7 +144,7 @@ h3 {
 }
 
 .link {
-    color: darkcyan;
+    color: #313131;
     font-weight: bold;
     font-size: xx-large;
     padding-left: 100px;
