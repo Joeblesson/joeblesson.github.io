@@ -94,6 +94,22 @@ a {
     text-decoration: none;
 }
 
+.reference:link {
+    color: #293bfd;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.reference:visited {
+    color: #293bfd;
+    font-family: 'Segoe UI Variable';
+    font-weight: bold;
+    font-size: x-large;
+    text-decoration: none;
+}
+
 h2 {
     color: orangered;
     font-family: 'Segoe UI Variable';
@@ -177,51 +193,63 @@ img {
     padding-left: 100px;
 }
 
+
 /* The grid: Four equal columns that floats next to each other */
+
 .column {
     float: left;
     width: 25%;
     padding: 10px;
-  }
-  
-  /* Style the images inside the grid */
-  .column img {
+}
+
+
+/* Style the images inside the grid */
+
+.column img {
     opacity: 0.8;
     cursor: pointer;
-  }
-  
-  .column img:hover {
+}
+
+.column img:hover {
     opacity: 1;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* The expanding image container (positioning is needed to position the close button and the text) */
-  .container {
+}
+
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+
+.container {
     position: relative;
     display: none;
-  }
-  
-  /* Expanding image text */
-  #imgtext {
+}
+
+
+/* Expanding image text */
+
+#imgtext {
     position: absolute;
     bottom: 15px;
     left: 15px;
     color: white;
     font-size: 20px;
-  }
-  
-  /* Closable button inside the image */
-  .closebtn {
+}
+
+
+/* Closable button inside the image */
+
+.closebtn {
     position: absolute;
     top: 10px;
     right: 15px;
     color: white;
     font-size: 35px;
     cursor: pointer;
-  }
+}
