@@ -1,10 +1,42 @@
 @font-face {
-    font-family: 'Segoe UI Variable Display Semibold';
-    src: url('../fonts/Segoe-UI-Variable-Display-Semibold.ttf') format('truetype');
+    font-family: 'Segoe UIVF';
+    src: url('../fonts/SegoeUIVF.woff');
 
 }
 
 h1 {
-    font-family: 'Segoe UI Variable Display Semibold';
+    font-family: 'Segoe UIVF', sans-serif;
     font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+
+}
+
+#popularWebsites {
+    width: 300px;
+    margin: auto;
+}
+
+#ytlogo {
+    width: auto
+}
+
+a {
+    font-family: 'Segoe UIVF', sans-serif;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+li {
+    color: rgb(44, 44, 44)
+}
+
+img {
+    height: 40px;
+    width: 40px;
 }
