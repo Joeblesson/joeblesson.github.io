@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Segoe UI Variable Display Semibold';
+    src: url('../fonts/Segoe-UI-Variable-Display-Semibold.ttf') format('truetype');
+
+}
+
+h1 {
+    font-family: 'Segoe UI Variable Display Semibold';
+    font-size: 50px;
+}
