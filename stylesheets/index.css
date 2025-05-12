@@ -6,8 +6,15 @@
 
 h1 {
     font-family: 'Segoe UIVF', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Segoe UIVF', sans-serif;
+    font-size: 40px;
+    color: gold;
     text-align: center;
 }
 
@@ -16,27 +23,25 @@ body {
 
 }
 
-#popularWebsites {
-    width: 300px;
-    margin: auto;
-}
-
-#ytlogo {
-    width: auto
-}
-
 a {
     font-family: 'Segoe UIVF', sans-serif;
     font-size: 20px;
-    color: white;
-    padding: 10px;
+    color: green;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    font-size: 25px;
+    color: limegreen;
+
 }
 
 li {
     color: rgb(44, 44, 44)
 }
 
-img {
-    height: 40px;
-    width: 40px;
-}
+
+
+
