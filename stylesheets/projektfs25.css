@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Segoe UIVF';
+    src: url('../fonts/SegoeUIVF.woff');
+
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+
+}
+

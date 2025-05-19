@@ -1,0 +1,7 @@
+ICANN = Internet Corporation for Assigned Names and Numbers
+
+    www.icann.org/en/governance/bylaws#article1
+
+    "The mission of the Internet Corporation for Assigned Names and Numbers ("ICANN") is to 
+    ensure the stable and secure operation of the Internet's unique identifier systems"
+
