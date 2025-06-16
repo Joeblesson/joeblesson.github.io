@@ -1,5 +1,0 @@
-Informatikprojekt FS25: Website erstellen
-
-Thema: ICANN und neue Top Level Domains
-        Wer bestimmt eigentlich, welche Domain-Endungen es gibt?
-

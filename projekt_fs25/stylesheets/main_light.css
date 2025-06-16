@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Segoe UIVF';
+    src: url('../../font/SegoeUIVF.woff');
+}
+
+h1 {
+    font-family: 'Segoe UIVF'; 
+    font-size: 40px
+}
+
+h2 {
+    font-family: 'Segoe UIVF';
+    font-weight: 400;
+    font-size: 30px
+}
+
+p {
+    font-family: 'Segoe UIVF';
+}
+
+.menu_bar {
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.menu_item {
+    text-decoration: none;
+
+    font-family: 'Segoe UIVF';
+    font-size: 20px;
+    font-weight: 600;
+
+    background-color: black;
+    color: aliceblue;
+
+    padding: 7.5px;
+
+
+}
+
+.menu_item:hover {
+    background-color: #293bfd;
+
+}
+
+.welcome_banner {
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+    border: 1px solid black;
+}
+
+#active {
+    background-color: #293bfd;
+}
