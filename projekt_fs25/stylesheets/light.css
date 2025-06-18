@@ -8,10 +8,12 @@ body {
 
     padding-left: 50px;
     padding-right: 50px;
+
 }
 
 a {
     font-family: 'Segoe UIVF';
+    text-decoration: none;
 }
 
 p {
@@ -32,6 +34,10 @@ h2 {
 h3 {
     font-size: x-large;
     font-weight: 400;
+}
+
+li {
+    font-family: 'Segoe UIVF'
 }
 
 .menu {
@@ -72,3 +78,29 @@ h3 {
 
     border: 2px solid black
 }
+
+.image {
+    background-color: rgb(237, 237, 237);
+    border: 2px solid black;
+    padding: 10px;
+    float: right;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.text {
+    float: left;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.image_desc {
+    text-align: center;
+}
+
+img {
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+
